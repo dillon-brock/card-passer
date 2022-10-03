@@ -1,3 +1,6 @@
+# Planning:
+[Miro Board](https://miro.com/app/board/uXjVPRZSpQo=/?share_link_id=951818610865)
+
 # React Half Baked Card Passer Challenge
 
 ## Demo
