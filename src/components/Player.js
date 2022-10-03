@@ -6,7 +6,6 @@ export default function Player({
   player,
   hand,
 }) {
-
   const { setTo, to } = useContext(GameContext);
   return (
     <div
