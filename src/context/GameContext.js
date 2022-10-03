@@ -1,4 +1,5 @@
 import { createContext } from "react";
+import initialCards from './cards-data';
 
 const GameContext = createContext();
 

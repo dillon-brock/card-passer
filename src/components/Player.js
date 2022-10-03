@@ -2,7 +2,10 @@ import React, { useContext } from 'react';
 import { GameContext } from '../context/GameContext';
 import CardList from './CardList';
 
-export default function Player({ player }) {
+export default function Player({
+  player,
+  hand,
+}) {
 
   const { setTo, to } = useContext(GameContext);
   return (
@@ -13,6 +16,7 @@ export default function Player({ player }) {
       <p>Player {player}</p>
       <CardList
         player={player}
+        cards={hand}
       />
     </div>
   );
